@@ -1992,6 +1992,12 @@
 
 <SEQUENCE TIMEOUT="" EXIT-ON="FAILURE">
   <COMMENT>差分確認用</COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE TIMEOUT="" SERVICE="pub.xml:xmlStringToXMLNode" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT></COMMENT>
+</INVOKE>
 </SEQUENCE>
 </SEQUENCE>
 
