@@ -1989,6 +1989,10 @@
 <MAP MODE="INPUT">
 </MAP>
 </INVOKE>
+
+<SEQUENCE TIMEOUT="" EXIT-ON="FAILURE">
+  <COMMENT>差分確認用</COMMENT>
+</SEQUENCE>
 </SEQUENCE>
 
 <INVOKE TIMEOUT="" SERVICE="ak.sekijuji.map.mapping:mapSekijuji" VALIDATE-IN="$none" VALIDATE-OUT="$none">
